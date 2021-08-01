@@ -1,5 +1,5 @@
 server:
-  port: 8802
+  port: 8803
 
 spring:
   application:
@@ -10,11 +10,9 @@ spring:
         defaultRabbit:  #定义的名称，用于bidding整合
           type: rabbit  #消息组件类型
       bindings:
-        send-in-0: #发送的交换机名
+        send-in-0:
           destination: send-in-0
           group: groupA
-
-
 
   rabbitmq:
     host: 192.168.174.131   #rabbitmq 服务器的地址

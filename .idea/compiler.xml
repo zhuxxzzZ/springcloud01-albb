@@ -21,6 +21,7 @@
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-config-bus3366" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-consumerCS-order80" />
         <module name="cloud-consumer-feign-Hystrix-order80" />
         <module name="cloud-gateway-gateway9527" />
@@ -49,6 +50,7 @@
       <module name="cloud-provider-payment8004" target="8" />
       <module name="cloud-provider-payment8006" target="8" />
       <module name="cloud-stream-rabbitmq-consumer8802" target="8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="8" />
       <module name="cloud-stream-rabbitmq-provider8801" target="8" />
       <module name="SpringCloud01" target="1.8" />
     </bytecodeTargetLevel>
