@@ -1,0 +1,6 @@
+com\JackGuo\Springcloud\ConsumerMain80.class
+com\JackGuo\Springcloud\controller\ConsumerController.class
+com\JackGuo\MyRule\RibbonRule.class
+com\JackGuo\Springcloud\config\ApplicationContexRestTemplate.class
+com\JackGuo\Springcloud\config\Swagger2Config.class
+com\JackGuo\MyRule\LoadBalancerRule.class

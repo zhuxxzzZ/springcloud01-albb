@@ -1,0 +1,4 @@
+com\JackGuo\Springcloud\srvice\ConsumerService.class
+com\JackGuo\Springcloud\srvice\ConsumerServiceImpl.class
+com\JackGuo\Springcloud\controller\ConsumerController.class
+com\JackGuo\Springcloud\ConsumerFGHystrixMain80.class

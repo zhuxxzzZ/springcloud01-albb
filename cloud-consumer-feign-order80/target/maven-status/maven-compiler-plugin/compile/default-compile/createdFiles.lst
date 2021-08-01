@@ -1,0 +1,4 @@
+com\JackGuo\Springcloud\ConsumerFeignMain80.class
+com\JackGuo\Springcloud\service\ConsumerFeignService.class
+com\JackGuo\Springcloud\controller\ConsumerFeignController.class
+com\JackGuo\Springcloud\config\FeiginConfig.class

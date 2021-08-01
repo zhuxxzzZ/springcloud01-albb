@@ -1,0 +1,31 @@
+server:
+  port: 3366
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: pro
+      name: config
+      uri: http://localhost:3344
+  rabbitmq:
+    host: 192.168.174.131
+    port: 5672
+    username: admin
+    password: admin
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+#      暴露监控端点实现动态刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

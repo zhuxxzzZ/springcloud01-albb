@@ -1,0 +1,103 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: ConfigCenter
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:zhuxxzzZ/updateConfig.git
+#          uri: https://github.com/zhuxxzzZ/updateConfig.git
+#          username: 1346421829@qq.com
+#          password: 090418XYz
+          search-paths: #github远程仓库中的目录名
+            - updateConfig
+          strict-host-key-checking: false
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+
+
+
+
+
+      label: master #读取分支
+    bus:
+      refresh:
+        enabled: true
+
+
+
+  rabbitmq:
+    host: 192.168.174.131
+    port: 5672
+    username: admin
+    password: admin
+
+
+
+eureka:
+  instance:
+    hostname: cloud-Config-Center
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

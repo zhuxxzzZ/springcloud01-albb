@@ -1,0 +1,5 @@
+com\JackGuo\Springcloud\common\Result.class
+com\JackGuo\Springcloud\common\Handler\GlobalException.class
+com\JackGuo\Springcloud\entities\Payment.class
+com\JackGuo\Springcloud\common\CodeMsg.class
+com\JackGuo\Springcloud\common\exception\BussiException.class
