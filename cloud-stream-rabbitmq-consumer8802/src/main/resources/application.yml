@@ -1,0 +1,44 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: stream-rabbitmq-consumer
+  cloud:
+    stream:
+      binders: #需要绑定的rabbitmq的服务信息
+        defaultRabbit:  #定义的名称，用于bidding整合
+          type: rabbit  #消息组件类型
+  rabbitmq:
+    host: 192.168.174.131   #rabbitmq 服务器的地址
+    port: 5672         #rabbitmq 服务器端口
+    username: admin       #rabbitmq 用户名
+    password: admin       #rabbitmq 密码
+    virtual-host: /       #虚拟路径
+#  cloud:
+#    stream:
+#      binders: #需要绑定的rabbitmq的服务信息
+#        defaultRabbit:  #定义的名称，用于bidding整合
+#          type: rabbit  #消息组件类型
+#          environment:  #配置rabbimq连接环境
+#            spring:
+#              rabbitmq:
+#                host: 192.168.174.131   #rabbitmq 服务器的地址
+#                port: 5672           #rabbitmq 服务器端口
+#                username: admin       #rabbitmq 用户名
+#                password: admin       #rabbitmq 密码
+#                virtual-host: /       #虚拟路径
+
+#      bindings:        #服务的整合处理  3.1之后不用再配置了
+#        saveOrderOutput:    #这个是消息通道的名称 --->保存订单输出通道
+#          destination: exchange-saveOrder     #exchange名称,交换模式默认是topic;把SpringCloud stream的消息输出通道绑定到RabbitMQ的exchange-saveOrder交换器。
+#          content-type: application/json      #设置消息的类型，本次为json
+#          default-binder: defaultRabbit
+#          group: saveOrderGroup               #分组
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/

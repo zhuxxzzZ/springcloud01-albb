@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-center3344" />
         <module name="cloud-provider-payment8002" />
-        <module name="cloud-consument-order80" />
         <module name="cloud-config-client3355" />
         <module name="cloud-consumerZK-order80" />
         <module name="cloud-provider-payment8004" />
@@ -18,11 +17,14 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-provider-Hystrix-payment8001" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-config-bus3366" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-consumerCS-order80" />
         <module name="cloud-consumer-feign-Hystrix-order80" />
         <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-consumer-order80" />
         <module name="cloud-provider-payment8006" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
@@ -32,10 +34,10 @@
       <module name="cloud-config-bus3366" target="8" />
       <module name="cloud-config-center3344" target="8" />
       <module name="cloud-config-client3355" target="8" />
-      <module name="cloud-consument-order80" target="8" />
       <module name="cloud-consumer-feign-Hystrix-order80" target="8" />
       <module name="cloud-consumer-feign-order80" target="8" />
       <module name="cloud-consumer-hystrix-dashboard9001" target="8" />
+      <module name="cloud-consumer-order80" target="8" />
       <module name="cloud-consumerCS-order80" target="8" />
       <module name="cloud-consumerZK-order80" target="8" />
       <module name="cloud-eureka-server7001" target="8" />
@@ -46,6 +48,8 @@
       <module name="cloud-provider-payment8002" target="8" />
       <module name="cloud-provider-payment8004" target="8" />
       <module name="cloud-provider-payment8006" target="8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="8" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="8" />
       <module name="SpringCloud01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
