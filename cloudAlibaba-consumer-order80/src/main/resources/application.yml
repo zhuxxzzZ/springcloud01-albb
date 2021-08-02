@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: Alibaba-consumer-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

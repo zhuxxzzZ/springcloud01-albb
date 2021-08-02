@@ -1,4 +1,4 @@
-package com.JackGuo.MyRule;
+package com.JackGuo.Springcloud.MyRule;
 
 
 import org.springframework.cloud.client.ServiceInstance;

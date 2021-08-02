@@ -1,7 +1,6 @@
 package com.JackGuo.Springcloud.config;
 
-
-import com.JackGuo.MyRule.LoadBalancerRule;
+import com.JackGuo.Springcloud.MyRule.LoadBalancerRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClients;
 import org.springframework.context.annotation.Bean;
